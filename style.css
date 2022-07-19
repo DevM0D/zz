@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: cyan;
+}
+
+header {
+  background-color: rgb(217, 186, 246);
+  height: calc(100vh -70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+.para {
+  font-size: 25px;
+  margin: 16px 0 24px 0;
+}
+
+button {
+  background-color: rgb(20, 167, 175);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about,
+#discord,
+#contact,
+footer {
+  padding: 40px 0;
+}
+#about {
+  background-color: blanchedalmond;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.dis {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.about_img {
+  width: 40%;
+}
+img {
+  width: 100%;
+}
+
+.div_img {
+  width: 60%;
+  padding: 24px;
+  margin: 24px;
+}
+
+#discord {
+  background-color: powderblue;
+}
+
+#contact {
+  background-color: slategray;
+}
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 24px;
+  padding: 6px 12px;
+}
+
+footer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_logo {
+  max-width: 40px;
+  margin-bottom: 16px;
+}
+
+.footer_link {
+  padding: 0 16px;
+}
